@@ -1,14 +1,14 @@
-# The Pranav Language
+# The Pra Language
 
 ## Introduction
-Pranav Language is an easy to learn programming language. It has efficient data structures. Pranav Language has simple and elegant syntax and dynamic typing. It's interpreted nature, makes it an ideal language for scripting programs for windows.
+Pra Language is an easy to learn programming language. It has efficient data structures. Pra Language has simple and elegant syntax and dynamic typing. It's interpreted nature, makes it an ideal language for scripting programs for windows.
 
-## Basics of Pranav Language
+## Basics of Pra Language
 
 ### Starting the program
-To start the interpreter you can just open the executable. Pranav Lanugauge programs end with ".pra". To run a seperate file you can pass the files path as the first argument to the program.
+To start the interpreter you can just open the executable. Pra Lanugauge programs end with ".pra". To run a seperate file you can pass the files path as the first argument to the program.
 
-### Numbers in Pranav Language
+### Numbers in Pra Language
 The syntak is simple: +, -, \*, /. It also has the power operator ^ e.g. x ^ y, which is the same as x<sup>y</sup>. You can also use parentheses to give it a higher priority. The modolo operator % returns the remainder of the division.
 ```
 >>> 5 + 3
@@ -22,10 +22,10 @@ The syntak is simple: +, -, \*, /. It also has the power operator ^ e.g. x ^ y, 
 ```
 
 ### Conditions
-A condition is either true or false. In Pranav Language true equals 1 and false equals 0. A condition can be obtained by comparing two or more conditions. Comparing is done with ==, !=, <, >, <=, >=.
+A condition is either true or false. In Pra Language true equals 1 and false equals 0. A condition can be obtained by comparing two or more conditions. Comparing is done with ==, !=, <, >, <=, >=.
 
 ### Variables
-Pranav Language is a weakly typed language. It does not have any types. Variables names can be only be started with letters and \_. They cannot start with digits or any special charachters. Variables can overwrite existing values. Fuction names are also treated as variables. To define a variable use the = operator. The RHS is assigned to LHS. Variables can hold any value. The type of value can be changed any time.
+Pra Language is a weakly typed language. It does not have any types. Variables names can be only be started with letters and \_. They cannot start with digits or any special charachters. Variables can overwrite existing values. Fuction names are also treated as variables. To define a variable use the = operator. The RHS is assigned to LHS. Variables can hold any value. The type of value can be changed any time.
 ```
 >>> number = 6
 >>> 6
@@ -34,10 +34,10 @@ Pranav Language is a weakly typed language. It does not have any types. Variable
 ```
 
 ### Strings
-Strings are an important part of Pranav Language. Strings are specified with "". Anything starting and ending with " is a string. String can hold any charachter. To append two strings use the + operator. Multiplying a string with a number returns a the string repeated n times. Using the indexer [] use can access each charachter.
+Strings are an important part of Pra Language. Strings are specified with "". Anything starting and ending with " is a string. String can hold any charachter. To append two strings use the + operator. Multiplying a string with a number returns a the string repeated n times. Using the indexer [] use can access each charachter.
 ```
->>> "hi " * 3 + "pranav"
->>> "hi hi hi pranav"
+>>> "hi " * 3 + "pra"
+>>> "hi hi hi pra"
 ```
 
 ### Lists
@@ -52,7 +52,7 @@ Lists can store many values. To create a list use \[\]. This will return a empty
 ## If and Loops
 
 ### If Statement
-The if statement checks if the condition is true and if is then executes the following code. You can have zero or more elif and an optional else. The code to run is within the { ... }. In Pranav Language if can also be an expression. For an expression you need if and else and need to be written in a single line without {}. For a single line if statement you can avoid {} and write on a new line.
+The if statement checks if the condition is true and if is then executes the following code. You can have zero or more elif and an optional else. The code to run is within the { ... }. In Pra Language if can also be an expression. For an expression you need if and else and need to be written in a single line without {}. For a single line if statement you can avoid {} and write on a new line.
 ```
 if false
   ...
@@ -94,7 +94,7 @@ Return is used in function. It will jump out of the function and return the valu
 ## Functions
 
 ### In-Built Functions
-In Pranav Language there are some in-built functions. Some important of them are:
+In Pra Language there are some in-built functions. Some important of them are:
 
 #### print(value)
 The print function will print the given value to the console. Value can be anything.
