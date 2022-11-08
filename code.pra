@@ -1,0 +1,9 @@
+print(6789)
+
+func say : name -> return "hi " * 3 + name
+
+print("Enter name:")
+name = input()
+print( say(name) )
+
+input()
