@@ -1,0 +1,9 @@
+var m=0
+
+func sum : var a, var b -> return a + b
+
+
+print << "enter some number"
+var  n= input <<
+print << "you enter this " + (sum << (num << n) , 5)
+input <<
